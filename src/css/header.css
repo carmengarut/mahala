@@ -36,8 +36,8 @@
 .FlagDropdown{
     display: none;
     position:absolute;
-    top: 50px;
-    right: 20%;
+    top: 45px;
+    right: 35%;
     width: 190px;
   
     
@@ -125,13 +125,11 @@ li {
     color: #121127;
 }
 
-@media (max-width: 1000px) {
-    .FlagDropdown{
-        right: 14%;
-    }
-}
 
 @media (max-width: 991px) {
+    .FlagDropdown{
+        right: 10%;
+    }
     .ActionButtons {
         flex-direction: column;
         position: absolute;
