@@ -1,0 +1,35 @@
+{
+    "header_web": {
+        "brand_name": "Mahala",
+        "sign_up": "Start your project",
+        "sign_in": "Contact us",
+        "es": "Español",
+        "en": "English"
+    },
+    "landing_page": {
+        "h1-1": "Get ",
+        "h1-2": "from idea to mvp",
+        "h1-3": " in two weeks.",
+        "h2": "Our team of product managers and developers will give shape to your idea and build a reliable minimum viable product for you. We will build your app or website from scratch as a mvp, we are good at it, and we do it fast.",
+        "button_1": "Start your project",
+        "button_2": "Contact us for an estimation",
+        "h5": "Get your mvp ready in 3 simple steps:",
+        "step_1_h4": "Speedness",
+        "step_1_h3": "Get from idea to action",
+        "step_1_box_text": "A startup is nothing without a good idea. But in order to achieve success it takes a lot more than just a good idea. Statistics show that only 0.0013% of startups succeed and the main reason for this failure is, majority of them are building their products around their own assumptions regarding what their clients would like, instead of analyzing and building their product based on real client needs. We build minimum viable quality products in the shortest possible time and cost that will help you obtain valuable feedback from your first users as soon as possible, to help you make decisions on how to go further in product development with less risk.",
+        "step_2_h4": "Experience",
+        "step_2_h3": "Meet our experts",
+        "step_2_box_text_1": "We are the makers of your app. Get advice from our team of engineers, product managers and designers to build a reliable MVP:",
+        "step_2_box_text_2": "We have been creating and scaling MVPs for years. Get in touch with us and get:",
+        "step_2_box_text_3": "→ FREE analysis of your idea",
+        "step_2_box_text_4": "→ Evaluation of your idea to see which tools and technology are the best fit ",
+        "step_2_box_text_5": "→ One touch to build the MVP of your startup idea",
+        "step_3_h4": "Technology",
+        "step_3_h3": "Use the best tools",
+        "step_3_box_text": "We build the MVP of your startup idea and connect it with the best marketing, sales and analytics tools to improve your testing with your first users and help you obtain better feedback rapidly accelerating your feedback loop. We are ready to work on the ideas of entrepreneurs who want to reach their early users faster to validate their product or service.",
+        "other_products": "Other products built by us"
+    },
+    "footer": {
+        "contact_details": "Contact +34 617 99 85 94"
+    }
+}

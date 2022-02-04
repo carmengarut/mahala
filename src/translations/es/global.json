@@ -1,0 +1,35 @@
+{
+    "header_web": {
+        "brand_name": "Mahala",
+        "sign_up": "Empieza tu proyecto",
+        "sign_in": "Contacta con nosotros",
+        "es": "Español",
+        "en": "English"
+    },
+    "landing_page": {
+        "h1-1": "Pasa ",
+        "h1-2": "de idea a mvp",
+        "h1-3": " en dos semanas.",
+        "h2": "Nuestro equipo de product managers y desarrolladores dará forma a tu idea y construirá un producto mínimo viable para ti en tiempo récord. Construiremos tu app o sitio web desde cero como un mvp, somos buenos en esto y lo hacemos muuuuy rápido.",
+        "button_1": "Empieza tu proyecto",
+        "button_2": "Contacta con nosotros para una estimación",
+        "h5": "Construye tu mvp en 3 sencillos pasos:",
+        "step_1_h4": "Velocidad",
+        "step_1_h3": "Pasa de la idea a la acción",
+        "step_1_box_text": "Una startup no es nada sin una buena idea. Pero para alcanzar el éxito se necesita mucho más que una buena idea. Las estadísticas muestran que sólo el 0,0013% de las startups tienen éxito y la razón principal de este fracaso es que la mayoría de ellas están construyendo sus productos en torno a sus propias suposiciones sobre lo que les gustaría a sus clientes, en lugar de analizar y construir un producto basado en las necesidades reales de los clientes. En Mahala, construimos productos mínimos viables de calidad en el menor tiempo y coste posibles que te ayudarán a obtener feedback de tus primeros usuarios lo antes posible, para ayudarle a tomar decisiones sobre cómo ir más allá en el desarrollo del producto con menos riesgo.",
+        "step_2_h4": "Experiencia",
+        "step_2_h3": "Conoce a nuestros expertos",
+        "step_2_box_text_1": "Déjate asesorar por nuestro equipo de ingenieros, product managers y diseñadores para construir un MVP fiable:",
+        "step_2_box_text_2": "Llevamos años creando y escalando MVPs. Ponte en contacto con nosotros y consigue:",
+        "step_2_box_text_3": "→ Análisis GRATIS de tu idea",
+        "step_2_box_text_4": "→ Evaluación de tu idea para ver las herramientas y la tecnología que mejor se adapta",
+        "step_2_box_text_5": "→ Estimación del coste y los pasos para construir el MVP de tu idea de startup",
+        "step_3_h4": "Tecnología",
+        "step_3_h3": "Usa las mejores herramientas del mercado",
+        "step_3_box_text": "Construimos el MVP de tu idea de startup y lo conectamos con las mejores herramientas de marketing, ventas y analítica para mejorar el testeo con tus primeros usuarios y ayudarte a obtener un mejor feedback acelerando rápidamente tu bucle de retroalimentación. Estamos listos para trabajar en las ideas de emprendedores que quieran llegar más rápido a sus primeros usuarios y validar su producto o servicio.",
+        "other_products": "Otros productos que hemos creado"
+    },
+    "footer": {
+        "contact_details": "Contacto +34 617 99 85 94"
+    }
+}
