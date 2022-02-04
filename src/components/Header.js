@@ -75,7 +75,7 @@ export default function Header () {
           <Navbar.Collapse id='responsive-navbar-nav'>
 
             <div className='ActionButtons'>
-              <a className='SignUpButton' href='https://e4tqbvnngek.typeform.com/to/VXp6EY1e' target="_blank" rel='noreferrer'>
+              <a className='SignUpButton' href={t('landing_page.typeform_link')} target="_blank" rel='noreferrer'>
                 {t('header_web.sign_up')}
               </a>
               <a className='SignInButton' href='https://meetings-eu1.hubspot.com/carmen-garcia-utrilla' target="_blank" rel='noreferrer'>

@@ -21,7 +21,7 @@ const LandingPage = () => {
         </h1>
         <h2 className='lp-h2'>{t('landing_page.h2')}</h2>
         <div className='lp-buttons-container'>
-          <a className='lp-button-left' href='https://e4tqbvnngek.typeform.com/to/VXp6EY1e' target="_blank" rel='noreferrer'>{t('landing_page.button_1')}</a>  
+          <a className='lp-button-left' href={t('landing_page.typeform_link')} target="_blank" rel='noreferrer'>{t('landing_page.button_1')}</a>  
           <a className='lp-button-right' href='https://meetings-eu1.hubspot.com/carmen-garcia-utrilla' target="_blank" rel='noreferrer'>{t('landing_page.button_2')}</a>
         </div>
       </div>
