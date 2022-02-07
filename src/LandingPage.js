@@ -1,3 +1,4 @@
+import { useEffect} from 'react'
 import './css/landingPage.css'
 import logo from './public/logo.svg'
 import image1 from './public/image1.svg'
@@ -5,10 +6,15 @@ import image2 from './public/image2.svg'
 import image3 from './public/image3.svg'
 import mockups from './public/mockups1.svg'
 import { useTranslation } from 'react-i18next'
+import ReactGA from 'react-ga'
 
 const LandingPage = () => {
-
   const { t } = useTranslation('global')
+  useEffect(() => {
+    ReactGA.initialize('G-EPHPXKYDBS')
+  }, [])
+
+  
   return (
     <div className='lp-container'>
       <div className='lp-heading-container'>
