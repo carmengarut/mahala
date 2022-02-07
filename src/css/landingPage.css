@@ -19,6 +19,7 @@
 
     width: 100%;
     min-width: 450px;
+    margin: 0 -20px;
     margin-top: 40px;
     margin-bottom: 20px;
 
@@ -31,6 +32,8 @@
 }
 
 .lp-h1-gradient {
+    display: inline-block;
+
     background: linear-gradient(to right, #AB40FF, #51C6FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

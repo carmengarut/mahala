@@ -14,9 +14,9 @@ const LandingPage = () => {
       <div className='lp-heading-container'>
         <h1 className='lp-h1'>
           {t('landing_page.h1-1')}
-          <span className='lp-h1-gradient'>
+          <div className='lp-h1-gradient'>
             {t('landing_page.h1-2')}
-          </span>
+          </div>
           {t('landing_page.h1-3')}
         </h1>
         <h2 className='lp-h2'>{t('landing_page.h2')}</h2>
