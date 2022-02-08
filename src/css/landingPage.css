@@ -242,6 +242,15 @@
     color: #000000;
 }
 
+.lp-carousel {
+    display: none;
+}
+
+.lp-carousel-item {
+    /* clip-path: inset(20px 60px 20px 0px); */
+    margin-left: -10px;
+}
+
 footer {
     border-top: 1px solid rgba(18, 17, 39, 0.12);
     padding: 40px 20px;
@@ -310,13 +319,25 @@ footer {
     }
 
     .lp-section-container { 
-        margin-top: -150px;
+        margin-top: -100px;
 
         box-shadow: none;
     }
 
     .lp-box-h3 {
         font-size: 40px;
+    }
+
+    .lp-section-h3 {
+        top: 20px;
+    }
+
+    .lp-mockups-image {
+        display: none;
+    }
+
+    .lp-carousel {
+        display: block;
     }
      
 }
