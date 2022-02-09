@@ -6,13 +6,11 @@ import image2 from './public/image2.svg'
 import image3 from './public/image3.svg'
 import mockups from './public/mockups1.svg'
 import etrust1 from './public/etrust1.svg'
-//import etrust2 from './public/etrust2.svg'
+import etrust2 from './public/etrust2.svg'
 import etrust3 from './public/etrust3.svg'
 import kampei1 from './public/kampei1.svg'
 import kampei2 from './public/kampei2.svg'
 import kampei3 from './public/kampei3.svg'
-import etrust1Mobile from './public/etrust1-mobile.svg'
-import etrust2Mobile from './public/etrust2-mobile.svg'
 import { useTranslation } from 'react-i18next'
 import ReactGA from 'react-ga'
 import Carousel from 'react-bootstrap/Carousel'
@@ -124,7 +122,6 @@ const LandingPage = () => {
             <img
               className="d-block w-100 lp-carousel-item"
               src={etrust1}
-              srcset={etrust1Mobile}
               alt="First slide"
         
             />
@@ -132,7 +129,7 @@ const LandingPage = () => {
           <Carousel.Item>
             <img
               className="d-block w-100 lp-carousel-item"
-              src={etrust2Mobile}
+              src={etrust2}
               alt="Second slide"
             
             />
