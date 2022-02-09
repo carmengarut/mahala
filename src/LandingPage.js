@@ -11,6 +11,7 @@ import etrust3 from './public/etrust3.svg'
 import kampei1 from './public/kampei1.svg'
 import kampei2 from './public/kampei2.svg'
 import kampei3 from './public/kampei3.svg'
+import etrust1Mobile from './public/etrust1-mobile.svg'
 import { useTranslation } from 'react-i18next'
 import ReactGA from 'react-ga'
 import Carousel from 'react-bootstrap/Carousel'
@@ -122,6 +123,7 @@ const LandingPage = () => {
             <img
               className="d-block w-100 lp-carousel-item"
               src={etrust1}
+              srcset={etrust1Mobile}
               alt="First slide"
         
             />
