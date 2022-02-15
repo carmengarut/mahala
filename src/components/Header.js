@@ -1,7 +1,7 @@
 import { useHistory } from 'react-router-dom'
 import { Navbar, Container } from 'react-bootstrap'
 import '../css/header.css'
-import logo from '../public/logo.svg'
+import logo from '../public/logo-mahala.png'
 import spainFlag from '../public/spain-flag.svg'
 import ukFlag from '../public/uk-flag.svg'
 
@@ -32,10 +32,10 @@ export default function Header () {
           <img
             alt=''
             src={logo}
-            width='30'
-            height='30'
+            width='35'
+            height='35'
             className='h-brand-logo'
-          />{' '}
+          />
           {t('header_web.brand_name')}
         </Navbar.Brand>
         <div className='HeaderRightBlock'>

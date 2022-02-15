@@ -5,18 +5,15 @@
 } 
 
 .h-brand-name {
-    /* Heading / 4 */
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 140%;
-
-    /* or 34px */
-
-    color: #000000;
-    
+    color: #000000;  
 }
 
 .h-brand-logo {
