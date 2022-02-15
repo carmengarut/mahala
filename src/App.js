@@ -1,4 +1,3 @@
-import './App.css';
 import HeaderWeb from './components/Header';
 import LandingPage from './LandingPage';
 
