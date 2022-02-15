@@ -1,4 +1,4 @@
-import { useEffect} from 'react'
+import { useEffect } from 'react'
 import './css/landingPage.css'
 import logo from './public/logo-mahala.png'
 import image1 from './public/image1.svg'

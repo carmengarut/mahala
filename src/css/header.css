@@ -64,10 +64,10 @@ li {
     border-top: 1px solid rgba(18, 17, 39, 0.12);
 }
 
-.FlagBlock:hover .FlagDropdown{
+.FlagBlock:hover .FlagDropdown {
     display: block !important;
     cursor:pointer;
-  }
+}
 
 .ActionButtons{
     display: -webkit-flex;
@@ -104,9 +104,6 @@ li {
     margin: 0px 12px;
     padding: 6px 18px;
     
-    
-    
-    /* Grayscale 900 Opacity / 12% */
     background: #FFFFFF;
     border: 0.720608px solid rgba(18, 17, 39, 0.12);
     border-radius: 4.32365px;
@@ -116,7 +113,6 @@ li {
     font-weight: 500;
     font-size: 14px;
     
-
     color: #121127;
 }
 

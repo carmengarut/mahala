@@ -380,7 +380,6 @@ footer {
 
     .lp-section-h3 {
         top: 30px;
-
         margin: 0;
 
         font-size: 30px;
@@ -404,12 +403,9 @@ footer {
         padding: 60px 5px 20px 5px;
     }
 
-
     .FooterBlock {
-      
         justify-content: center;
-      }  
-     
+    }     
 }
 
 
