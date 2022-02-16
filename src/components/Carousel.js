@@ -1,11 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel'
 
-import etrust1 from './public/etrust1.svg'
-import etrust2 from './public/etrust2.svg'
-import etrust3 from './public/etrust3.svg'
-import kampei1 from './public/kampei1.svg'
-import kampei2 from './public/kampei2.svg'
-import kampei3 from './public/kampei3.svg'
+import etrust1 from '../public/etrust1.svg'
+import etrust2 from '../public/etrust2.svg'
+import etrust3 from '../public/etrust3.svg'
+import kampei1 from '../public/kampei1.svg'
+import kampei2 from '../public/kampei2.svg'
+import kampei3 from '../public/kampei3.svg'
 
 export default function CarouselMobile () {
     return (
