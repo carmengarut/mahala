@@ -12,35 +12,35 @@ export default function CarouselMobile () {
         <Carousel variant='dark' className='lp-carousel'>
           <Carousel.Item>
             <img
-              className="d-block w-100 lp-carousel-item"
+              className="d-block w-100 lp-carousel-item lazyLoad"
               src={etrust1}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100 lp-carousel-item"
+              className="d-block w-100 lp-carousel-item lazyLoad"
               src={etrust2}
-              alt="Second slide"  
+              alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100 lp-carousel-item"
+              className="d-block w-100 lp-carousel-item lazyLoad"
               src={etrust3}
               alt="Third slide"   
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100 lp-carousel-item"
+              className="d-block w-100 lp-carousel-item lazyLoad"
               src={kampei1}
               alt="Fourth slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100 lp-carousel-item"
+              className="d-block w-100 lp-carousel-item lazyLoad"
               src={kampei2}
               alt="Fifth slide"
             
@@ -48,10 +48,9 @@ export default function CarouselMobile () {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100 lp-carousel-item"
+              className="d-block w-100 lp-carousel-item lazyLoad"
               src={kampei3}
               alt="Sixth slide"
-           
             />
           </Carousel.Item>
         </Carousel>

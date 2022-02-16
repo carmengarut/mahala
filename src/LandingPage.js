@@ -9,6 +9,9 @@ import mockups from './public/mockups1.svg'
 import { useTranslation } from 'react-i18next'
 import ReactGA from 'react-ga'
 
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
+
 const CarouselMobile = lazy(() => import('./components/Carousel'))
 
 const LandingPage = () => {
@@ -43,7 +46,7 @@ const LandingPage = () => {
           src={image1}
           width='70px'
           height='207px'
-          className='lp-box-image'
+          className='lp-box-image lazyLoad'
         />
         <div className='lp-box'>
          <h4 className='lp-box-title-gradient'>{t('landing_page.step_1_h4')}</h4>
@@ -61,7 +64,7 @@ const LandingPage = () => {
           src={image2}
           width='70px'
           height='207px'
-          className='lp-box-image'
+          className='lp-box-image lazyLoad'
         />
         <div className='lp-box'>
          <h4 className='lp-box-title-gradient'>{t('landing_page.step_2_h4')}</h4>
@@ -92,7 +95,7 @@ const LandingPage = () => {
           src={image3}
           width='70px'
           height='207px'
-          className='lp-box-image'
+          className='lp-box-image lazyLoad'
         />
         <div className='lp-box'>
          <h4 className='lp-box-title-gradient'>{t('landing_page.step_3_h4')}</h4>
@@ -113,7 +116,7 @@ const LandingPage = () => {
           src={mockups}
           width='auto'
           height='1738px'
-          className='lp-mockups-image'
+          className='lp-mockups-image lazyLoad'
         />
         <Suspense fallback={<div>Loading...</div>}>
           <CarouselMobile />
@@ -129,6 +132,7 @@ const LandingPage = () => {
               src={logo}
               width='30px'
               height='30px'
+              className='lazyLoad'
             /> {" "}
             Mahala
           </div>
