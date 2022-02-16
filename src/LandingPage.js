@@ -30,7 +30,6 @@ const LandingPage = () => {
           <div className='lp-h1-gradient'>
             {t('landing_page.h1-2')}
           </div>
-          {t('landing_page.h1-3')}
         </h1>
         <h2 className='lp-h2'>{t('landing_page.h2')}</h2>
         <div className='lp-buttons-container'>
@@ -124,14 +123,13 @@ const LandingPage = () => {
     
       <footer>
         <div className='FooterBlock'>
-          <div>
+          <div className='FooterBlock'>
             <LazyLoad height={30}>
               <img
                 alt=''
                 src={logo}
                 width='30px'
-                height='30px'
-                className='lazyload'
+                height='30px' 
               />
             </LazyLoad> 
             {" "}
