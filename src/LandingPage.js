@@ -1,13 +1,13 @@
-import { useEffect } from 'react'
+import { useEffect, lazy, Suspense } from 'react'
 import './css/landingPage.css'
 import logo from './public/logo-mahala.png'
 import image1 from './public/image1.svg'
 import image2 from './public/image2.svg'
 import image3 from './public/image3.svg'
 import mockups from './public/mockups1.svg'
-import etrust1 from './public/etrust1.svg'
-import etrust2 from './public/etrust2.svg'
-import etrust3 from './public/etrust3.svg'
+// import etrust1 from './public/etrust1.svg'
+// import etrust2 from './public/etrust2.svg'
+// import etrust3 from './public/etrust3.svg'
 import kampei1 from './public/kampei1.svg'
 import kampei2 from './public/kampei2.svg'
 import kampei3 from './public/kampei3.svg'
@@ -15,8 +15,11 @@ import { useTranslation } from 'react-i18next'
 import ReactGA from 'react-ga'
 import Carousel from 'react-bootstrap/Carousel'
 
-
 const LandingPage = () => {
+  const etrust1 = lazy(() => import('./public/etrust1.svg'));
+  const etrust2 = lazy(() => import('./public/etrust2.svg'));
+  const etrust3 = lazy(() => import('./public/etrust3.svg'));
+
   const { t } = useTranslation('global')
   useEffect(() => {
     ReactGA.initialize('G-EPHPXKYDBS')
@@ -120,28 +123,31 @@ const LandingPage = () => {
         />
         <Carousel variant='dark' className='lp-carousel'>
           <Carousel.Item>
-            <img
-              className="d-block w-100 lp-carousel-item"
-              src={etrust1}
-              alt="First slide"
-        
-            />
+            <Suspense fallback={<div>Loading...</div>}>
+              <img
+                className="d-block w-100 lp-carousel-item"
+                src={etrust1}
+                alt="First slide"
+              />
+            </Suspense>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100 lp-carousel-item"
-              src={etrust2}
-              alt="Second slide"
-            
-            />
+            <Suspense fallback={<div>Loading...</div>}>
+              <img
+                className="d-block w-100 lp-carousel-item"
+                src={etrust2}
+                alt="Second slide"
+              />
+            </Suspense>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100 lp-carousel-item"
-              src={etrust3}
-              alt="Third slide"
-           
-            />
+            <Suspense fallback={<div>Loading...</div>}>
+              <img
+                className="d-block w-100 lp-carousel-item"
+                src={etrust3}
+                alt="Third slide"
+              />
+            </Suspense>
           </Carousel.Item>
           <Carousel.Item>
             <img
