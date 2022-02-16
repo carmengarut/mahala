@@ -5,12 +5,10 @@ import image1 from './public/image1.svg'
 import image2 from './public/image2.svg'
 import image3 from './public/image3.svg'
 import mockups from './public/mockups1.svg'
+import LazyLoad from 'react-lazyload';
 
 import { useTranslation } from 'react-i18next'
 import ReactGA from 'react-ga'
-
-import 'lazysizes';
-import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 const CarouselMobile = lazy(() => import('./components/Carousel'))
 
@@ -41,13 +39,13 @@ const LandingPage = () => {
       </div>
       <div className='lp-subtitle'>{t('landing_page.h5')}</div>
       <div className='lp-box1-container'>
-        <img
-          alt=''
-          src={image1}
-          width='70px'
-          height='207px'
-          className='lp-box-image lazyLoad'
-        />
+        <LazyLoad height={207}>
+          <img
+            alt=''
+            src={image1}
+            className='lp-box-image'
+          />
+        </LazyLoad>
         <div className='lp-box'>
          <h4 className='lp-box-title-gradient'>{t('landing_page.step_1_h4')}</h4>
          <h3 className='lp-box-h3'>
@@ -59,13 +57,13 @@ const LandingPage = () => {
        </div>
       </div>
       <div className='lp-box2-container'>
-        <img
-          alt=''
-          src={image2}
-          width='70px'
-          height='207px'
-          className='lp-box-image lazyLoad'
-        />
+        <LazyLoad height={207}>
+          <img
+            alt=''
+            src={image2}
+            className='lp-box-image'
+          />
+        </LazyLoad>
         <div className='lp-box'>
          <h4 className='lp-box-title-gradient'>{t('landing_page.step_2_h4')}</h4>
          <h3 className='lp-box-h3'>
@@ -90,13 +88,13 @@ const LandingPage = () => {
          </div>
        </div>
       </div><div className='lp-box3-container'>
-        <img
-          alt=''
-          src={image3}
-          width='70px'
-          height='207px'
-          className='lp-box-image lazyLoad'
-        />
+        <LazyLoad height={207}>
+          <img
+            alt=''
+            src={image3}
+            className='lp-box-image'
+          />
+        </LazyLoad>
         <div className='lp-box'>
          <h4 className='lp-box-title-gradient'>{t('landing_page.step_3_h4')}</h4>
          <h3 className='lp-box-h3'>
@@ -111,13 +109,13 @@ const LandingPage = () => {
         <div className='lp-section-h3'> 
           {t('landing_page.other_products')}
         </div>
-        <img
-          alt=''
-          src={mockups}
-          width='auto'
-          height='1738px'
-          className='lp-mockups-image lazyLoad'
-        />
+        <LazyLoad height={1738}>
+          <img
+            alt=''
+            src={mockups}
+            className='lp-mockups-image'
+          />
+        </LazyLoad>
         <Suspense fallback={<div>Loading...</div>}>
           <CarouselMobile />
         </Suspense>
@@ -127,13 +125,16 @@ const LandingPage = () => {
       <footer>
         <div className='FooterBlock'>
           <div>
-            <img
-              alt=''
-              src={logo}
-              width='30px'
-              height='30px'
-              className='lazyLoad'
-            /> {" "}
+            <LazyLoad height={30}>
+              <img
+                alt=''
+                src={logo}
+                width='30px'
+                height='30px'
+                className='lazyload'
+              />
+            </LazyLoad> 
+            {" "}
             Mahala
           </div>
 
