@@ -4,12 +4,13 @@ import logo from './public/logo-mahala.png'
 import image1 from './public/image1.svg'
 import image2 from './public/image2.svg'
 import image3 from './public/image3.svg'
-import mockups from './public/mockups1.svg'
+
 import LazyLoad from 'react-lazyload';
 
 import { useTranslation } from 'react-i18next'
 import ReactGA from 'react-ga'
 
+const MockupImg = lazy(() => import('./components/MockupsImg'))
 const CarouselMobile = lazy(() => import('./components/Carousel'))
 
 const LandingPage = () => {
@@ -109,13 +110,12 @@ const LandingPage = () => {
         <div className='lp-section-h3'> 
           {t('landing_page.other_products')}
         </div>
-        <LazyLoad height={1738}>
-          <img
-            alt=''
-            src={mockups}
-            className='lp-mockups-image'
-          />
-        </LazyLoad>
+        <Suspense fallback={<div><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>}>
+          <div className='lp-mockups-image'>
+            <MockupImg />
+            </div>
+        
+        </Suspense>
         <Suspense fallback={<div>Loading...</div>}>
           <CarouselMobile />
         </Suspense>
