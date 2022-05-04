@@ -1,5 +1,14 @@
 @import url('./fonts.css');
 
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.lp-button-right:hover{
+    color: #000000;
+}
+
 .lp-container {
     padding: 0 60px;
 }
@@ -393,7 +402,7 @@ footer {
 
 @media (max-width: 800px) {
     .lp-h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .lp-box {
@@ -439,13 +448,13 @@ footer {
         min-width: 0px;
         margin-top: 0px;
 
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .lp-h2{
         display: flex;
         width: 100%;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .lp-button-left, .lp-button-right {
@@ -474,11 +483,11 @@ footer {
 
 @media (max-width: 290px) {
     .lp-h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .lp-h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
    
     .lp-subtitle {

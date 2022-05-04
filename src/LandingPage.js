@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next'
 import ReactGA from 'react-ga'
 
 const MockupImg = lazy(() => import('./components/MockupsImg'))
-const CarouselMobile = lazy(() => import('./components/Carousel'))
+const PhotosMobile = lazy(() => import('./components/Photos'))
 
 const LandingPage = () => {
 
@@ -116,7 +116,7 @@ const LandingPage = () => {
         
         </Suspense>
         <Suspense fallback={<div>Loading...</div>}>
-          <CarouselMobile />
+          <PhotosMobile />
         </Suspense>
       </div>
       

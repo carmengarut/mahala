@@ -116,6 +116,10 @@ li {
     color: #121127;
 }
 
+.SignInButton:hover {
+    color: #000000;
+}
+
 
 @media (max-width: 991px) {
     .FlagDropdown{
