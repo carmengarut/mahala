@@ -1,7 +1,7 @@
 {
     "header_web": {
         "brand_name": "Mahala",
-        "sign_up": "Start your project",
+        "sign_up": "Request a quotation online",
         "sign_in": "Contact us",
         "es": "Español",
         "en": "English"
@@ -10,7 +10,7 @@
         "h1-1": "Do you have a business idea? We develop it ",
         "h1-2": "in two weeks.",
         "h2": "Our team of product managers and developers will give shape to your idea and build a reliable minimum viable product for you. We will build your app or website from scratch as a mvp, we are good at it, and we do it fast.",
-        "button_1": "Start your project",
+        "button_1": "Request a quotation online",
         "button_2": "Contact us for an estimation",
         "typeform_link": "https://e4tqbvnngek.typeform.com/to/VXp6EY1e",
         "h5": "Make your business idea a reality in 3 simple steps:",
